@@ -1,5 +1,6 @@
 // Copyright 2022 Oskin Georgii
 #include <gtest/gtest.h>
+
 #include "include/equation.h"
 
 TEST(EqConstructor, Constructor_WO_Params) {
