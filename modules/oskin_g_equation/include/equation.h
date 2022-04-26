@@ -1,11 +1,10 @@
 // Copyright 2022 Oskin Georgii
 
-#ifndef MODULES_OSKIN_G_EQUATON_INCLUDE_EQUATION_H_
-#define MODULES_OSKIN_G_EQUATON_INCLUDE_EQUATION_H_
+#ifndef MODULES_OSKIN_G_EQUATION_INCLUDE_EQUATION_H_
+#define MODULES_OSKIN_G_EQUATION_INCLUDE_EQUATION_H_
 
 class Equation {
 private:
-
     double a, b, c;
 
 public:
@@ -22,6 +21,6 @@ public:
     double getC() {
         return c;
     }
-
 };
-#endif // MODULES_OSKIN_G_EQUATON_INCLUDE_EQUATION_H_
+
+#endif  // MODULES_OSKIN_G_EQUATION_INCLUDE_EQUATION_H_

@@ -1,9 +1,7 @@
 // Copyright 2022 Oskin Georgii
 
 #include "include/equation.h"
-
 #include <math.h>
-
 #include<string>
 
 Equation::Equation() {
@@ -12,7 +10,6 @@ Equation::Equation() {
     c = -3;
 
 }
-
 Equation::Equation(double _a, double _b, double _c) {
     a = _a;
     b = _b;
@@ -43,5 +40,4 @@ void Equation::SolveEQ(Equation eq, double res[2]) {
         res[0] = (-b + sq_dis) / (2 * a);
         res[1] = (-b - sq_dis) / (2 * a);
     }
-
 }
