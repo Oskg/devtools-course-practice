@@ -17,7 +17,6 @@ TEST(EqConstructor, Constructor_W_Minus) {
 
 TEST(EqConstructor, Exept_ON_NON_R_ROOTS) {
     ASSERT_ANY_THROW(Equation eq(1, 2, 3));
-
 }
 
 TEST(SolveEQ_test, Can_Solve_Default) {
