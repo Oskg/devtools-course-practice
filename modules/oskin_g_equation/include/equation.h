@@ -5,9 +5,11 @@
 
 class Equation {
 private:
+
     double a, b, c;
 
 public:
+
     Equation();
     Equation(double a, double b, double c);
     static void SolveEQ(Equation eq, double res[2]);
