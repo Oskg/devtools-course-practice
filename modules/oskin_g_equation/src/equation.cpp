@@ -8,7 +8,6 @@ Equation::Equation() {
     a = 2;
     b = 1;
     c = -3;
-
 }
 Equation::Equation(double _a, double _b, double _c) {
     a = _a;
