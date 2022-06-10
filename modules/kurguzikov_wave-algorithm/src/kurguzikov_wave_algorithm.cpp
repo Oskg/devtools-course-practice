@@ -4,7 +4,7 @@
 #include <queue>
 #include <vector>
 
-#include "include/kurguzikov_wave_algorithm.h"
+#include "/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/kurguzikov_wave_algorithm.h"
 
 WaveLib::WaveAlgorithm::WaveAlgorithm(int _mapHeight, int _mapWidth) {
     if (_mapHeight < 1 || _mapWidth < 1) {
@@ -19,7 +19,7 @@ WaveLib::WaveAlgorithm::WaveAlgorithm(
     int _mapHeight,
     int _mapWidth,
     const std::vector<int>& _map
-    ) {
+) {
     if (_map.empty()) {
         throw std::invalid_argument("Map is empty");
     }
@@ -38,7 +38,7 @@ bool WaveLib::WaveAlgorithm::findPath(
     const Point& start,
     const Point& finish,
     std::vector<Point>* path
-    ) {
+) {
     if (start.first < 0 || start.first > mapWidth - 1 ||
         start.second < 0 || start.second > mapHeight - 1 ||
         finish.first < 0 || finish.first > mapWidth - 1 ||
@@ -59,7 +59,7 @@ bool WaveLib::WaveAlgorithm::findPath(
 }
 
 bool WaveLib::WaveAlgorithm::waveProp(const Point& start, const Point& finish) {
-    std::queue<Point> wavePointQueue({start});
+    std::queue<Point> wavePointQueue({ start });
     bool pathFound = false;
     while (!wavePointQueue.empty()) {
         Point currPoint = wavePointQueue.front();
@@ -72,7 +72,7 @@ bool WaveLib::WaveAlgorithm::waveProp(const Point& start, const Point& finish) {
                     map[wavePoint.second * mapWidth + wavePoint.first]
                     == FREE) {
                     map[wavePoint.second * mapWidth + wavePoint.first] =
-                    map[currPoint.second * mapWidth + currPoint.first] + 1;
+                        map[currPoint.second * mapWidth + currPoint.first] + 1;
                     wavePointQueue.push(wavePoint);
                 }
             }
@@ -86,7 +86,7 @@ void WaveLib::WaveAlgorithm::buildPath(
     const Point& start,
     const Point& finish,
     std::vector<Point>* path
-    ) {
+) {
     Point currPoint(finish);
     path->push_back(currPoint);
     while (currPoint != start) {
