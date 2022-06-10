@@ -43,7 +43,6 @@ operator()(int argc, const char** argv) {
     std::string message = std::to_string(argc);
     if (argc < 5) getHelp(argv[0], "Error: Not enough arguments!\n");
     if (argc == 5) {
-        size_t pos = 0;
         char delimiter = ',';
         std::vector<std::string> start_p;
         std::vector<std::string> end_p;
@@ -60,7 +59,7 @@ operator()(int argc, const char** argv) {
         map_s += "!";
         int i = 0;
         int j = 0;
-        size_t n = std::count(map_s.begin(), map_s.end(), ',');
+        int n = std::count(map_s.begin(), map_s.end(), ',');
         if (n != size - 1) {
             getHelp(argv[0], "Error: Wrong dims of map!\n");
             return message_;
@@ -77,7 +76,7 @@ operator()(int argc, const char** argv) {
         }
 
         std::vector<int> map_f(std::stoi(dims[0]) * std::stoi(dims[1]));
-        for (int i = 0; i < map_s_a.size(); i++) {
+        for (int i = 0; i < size; i++) {
             if (map_s_a[i] == "FREE") {
                 map_f[i] = -1;
                 continue;
