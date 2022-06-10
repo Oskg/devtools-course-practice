@@ -4,7 +4,7 @@
 #include <queue>
 #include <vector>
 
-#include "/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/kurguzikov_wave_algorithm.h"
+#include "include/kurguzikov_wave_algorithm.h"
 
 WaveLib::WaveAlgorithm::WaveAlgorithm(int _mapHeight, int _mapWidth) {
     if (_mapHeight < 1 || _mapWidth < 1) {

@@ -1,9 +1,9 @@
 // Copyright 2022 Oskin G
 #define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING  1
+#include <gtest/gtest.h>
 #include <string>
 #include <vector>
-#include "/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/wave_algorithm_app.h"
-#include "/Users/usero/Desktop/DevTools/devtools-course-practice/3rdparty/gtest/gtest.h"
+#include "/include/wave_algorithm_app.h"
 
 using ::testing::internal::RE;
 
