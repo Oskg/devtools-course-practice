@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/application/application.cpp",
+			"labels" : 
+			[
+				"kurguzikov_wave-algorithm",
+				"Application"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kurguzikov_wave-algorithm",
+			"Application"
+		],
+		"name" : "app_kurguzikov_wave-algorithm"
+	}
+}

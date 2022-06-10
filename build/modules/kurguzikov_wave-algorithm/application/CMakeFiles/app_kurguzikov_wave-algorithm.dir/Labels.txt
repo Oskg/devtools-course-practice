@@ -1,0 +1,7 @@
+# Target labels
+ kurguzikov_wave-algorithm
+ Application
+# Source files and their labels
+C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/application/application.cpp
+ kurguzikov_wave-algorithm
+ Application

@@ -1,0 +1,16 @@
+# Target labels
+ kurguzikov_wave-algorithm
+ Library
+# Source files and their labels
+C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/src/kurguzikov_wave_algorithm.cpp
+ kurguzikov_wave-algorithm
+ Library
+C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/src/wave_algorithm_app.cpp
+ kurguzikov_wave-algorithm
+ Library
+C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/kurguzikov_wave_algorithm.h
+ kurguzikov_wave-algorithm
+ Library
+C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/wave_algorithm_app.h
+ kurguzikov_wave-algorithm
+ Library

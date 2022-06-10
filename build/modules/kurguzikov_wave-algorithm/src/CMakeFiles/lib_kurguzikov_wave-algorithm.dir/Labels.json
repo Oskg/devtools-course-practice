@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/src/kurguzikov_wave_algorithm.cpp",
+			"labels" : 
+			[
+				"kurguzikov_wave-algorithm",
+				"Library"
+			]
+		},
+		{
+			"file" : "C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/src/wave_algorithm_app.cpp",
+			"labels" : 
+			[
+				"kurguzikov_wave-algorithm",
+				"Library"
+			]
+		},
+		{
+			"file" : "C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/kurguzikov_wave_algorithm.h",
+			"labels" : 
+			[
+				"kurguzikov_wave-algorithm",
+				"Library"
+			]
+		},
+		{
+			"file" : "C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/wave_algorithm_app.h",
+			"labels" : 
+			[
+				"kurguzikov_wave-algorithm",
+				"Library"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kurguzikov_wave-algorithm",
+			"Library"
+		],
+		"name" : "lib_kurguzikov_wave-algorithm"
+	}
+}

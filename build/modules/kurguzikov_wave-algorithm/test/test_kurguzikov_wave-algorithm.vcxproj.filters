@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\test\kurguzikov_wave_algorithm_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\test\test_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\test\test_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{734528AA-D6D1-3E86-BCC6-684F967E3EEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

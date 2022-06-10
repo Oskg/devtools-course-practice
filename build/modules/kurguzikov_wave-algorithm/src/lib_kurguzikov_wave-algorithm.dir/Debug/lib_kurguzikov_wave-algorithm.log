@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/src/CMakeLists.txt
+  kurguzikov_wave_algorithm.cpp
+  wave_algorithm_app.cpp
+C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\src\wave_algorithm_app.cpp(62,15): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода...
+  lib_kurguzikov_wave-algorithm.vcxproj -> C:\Users\usero\Desktop\DevTools\devtools-course-practice\build\lib\kurguzikov_wave-algorithm.lib

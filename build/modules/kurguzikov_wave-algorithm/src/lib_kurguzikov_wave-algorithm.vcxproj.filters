@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\src\kurguzikov_wave_algorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\src\wave_algorithm_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\include\kurguzikov_wave_algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\include\wave_algorithm_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\usero\Desktop\DevTools\devtools-course-practice\modules\kurguzikov_wave-algorithm\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61EC9F1C-D4DB-3A34-8151-AF87B8F357DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{734528AA-D6D1-3E86-BCC6-684F967E3EEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
