@@ -1,8 +1,7 @@
 // Copyright 2022 Kurguzikov Kirill
 
-#include "/Users/usero/Desktop/DevTools/devtools-course-practice/3rdparty/gtest/gtest.h" 
 #include <vector>
-
+#include "/Users/usero/Desktop/DevTools/devtools-course-practice/3rdparty/gtest/gtest.h"
 #include "/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/kurguzikov_wave_algorithm.h"
 
 TEST(WaveAlgorithm, Two_IncorrectMapSizesExc) {
