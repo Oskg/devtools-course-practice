@@ -5,8 +5,7 @@
 #include <string>
 #include <algorithm>
 #include <vector>
-
-#include "/Users/usero/Desktop/DevTools/devtools-course-practice/modules/kurguzikov_wave-algorithm/include/wave_algorithm_app.h"
+#include "include/wave_algorithm_app.h"
 
 WaveAlgorithmApplication::WaveAlgorithmApplication() : message_("") {}
 
